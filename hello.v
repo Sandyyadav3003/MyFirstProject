@@ -4,4 +4,6 @@ module and_gate(in1,in2,out)
   output out;
   
   assign = in1 & in2 ;
+  
+  assign <= in1 & in2;
 endmodule
