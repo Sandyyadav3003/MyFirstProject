@@ -6,4 +6,5 @@ module and_gate(in1,in2,out)
   assign = in1 & in2 ;
   
   assign <= in1 & in2;
+  //final_version
 endmodule
